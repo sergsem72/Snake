@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="./main.css">
+    </head>
+<body>
+    <div id="pause" class="paused hidden">Paused</div>
+    <div class="infobox">
+        <div class="panels">
+            <div class="hd">Game controls</div> <br/>
+            <code>&uarr;</code><span>Move backwards</span> <br/>
+            <code>&darr;</code><span>Move forward</span> <br/>
+            <code>&larr;</code><span>Move left</span> <br/>
+            <code>&rarr;</code><span>Move right</span> <br/>
+            <code>spacebar</code><span>Pause (use <code>arows keys</code> to resume)</span><br/>
+        </div>
+        <div class="panels">
+            <div class="hd">Game score</div>
+            <div id="gamescore" class="score">0</div>
+        </div>
+    </div>
+    <script src="./three.min.js"></script>
+    <script src="./snake.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
